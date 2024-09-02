@@ -37,13 +37,41 @@ nav ul li{
 nav ul {
     display: flex;
     flex-direction: row; 
-    margin: 0; 
-    padding: 0; 
+    float:right;
+    margin:0;
+    padding:0;
+
 }
-nav ul li {
-    list-style: none;
-    width: 25%; 
-    text-align: center; 
-    height: 100px; 
-    transition: 0.5s; 
+
+nav ul li a{
+    text-decoration-line: line-through;
+    padding:55px 20px 55px 0;
+    float:left;
+}
+nav #menu_pricipal{
+    float: right;
+}
+nav #menu_principal li span{
+    font-family: Montserrat,sans-serif;
+    font-size: 11px;
+    color:rgb(134,134,134);
+    margin-top: 60px;
+    margin-right: 3px;
+    float:left;
+}
+
+#menu_principal li a{
+    color:white;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+nav ul li:hover{
+    background-color: #857049;
+}
+
+/*-----------------------------------------TRABALHOS------------------------------- */
+#trabalhos{
+    background-color: blue;
 }
