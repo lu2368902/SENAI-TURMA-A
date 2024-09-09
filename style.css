@@ -1,0 +1,186 @@
+    body {
+        margin: 0;
+        padding: 0;
+        /* Remove o espaçamento padrão do corpo da página */
+    }
+
+    header {
+        background-image: url(../IMG/PARALELLO2.jpg); /* Define uma imagem de fundo no header */
+        background-repeat: no-repeat; /* Evita que a imagem se repita */
+        background-size: cover; /* Faz a imagem cobrir toda a área do header */
+        background-position: center; /* Centraliza a imagem no header */
+        width: 100%; /* Faz o header ocupar 100% da largura da tela */
+        height: 720px; /* Define a altura do header */
+        padding-top: 15px; /* Adiciona um espaçamento no topo */
+    }
+
+    nav {
+        background-color: rgb(0, 0, 0); /* Define a cor de fundo preta para a navegação */
+        min-width: 1200px; /* Define uma largura mínima para a barra de navegação */
+        max-width: 1400px; /* Define uma largura máxima para a barra de navegação */
+        height: 125px; /* Define a altura da barra de navegação */
+        margin: 0 auto 0 auto; /* Centraliza a navegação horizontalmente */
+    }
+
+    nav #logo img {
+        height: 75px; /* Define a altura da imagem do logo */
+    }
+
+    nav #logo {
+        margin: 23px; /* Adiciona espaçamento ao redor do logo */
+        float: left; /* Faz o logo flutuar à esquerda */
+    }
+
+    nav ul li {
+        color: aliceblue; /* Define a cor do texto para uma cor clara */
+        font-size: 16px; /* Define o tamanho da fonte */
+        font-family: Montserrat, sans-serif; /* Aplica a fonte Montserrat */
+        list-style: none; /* Remove os marcadores da lista */
+    }
+
+    nav ul {
+        display: flex; /* Exibe os itens da lista em linha (horizontalmente) */
+        flex-direction: row; /* Define a direção horizontal dos itens */
+        float: right; /* Alinha a lista à direita */
+        margin: 0;  /* Remove todas as margens do elemento */
+        padding: 0; /* Remove todo o espaçamento interno (padding) do elemento */
+    }
+
+    nav ul li a {
+        text-decoration-line: line-through; /* Aplica um risco nos links */
+        padding: 55px 20px 55px 0; /* Define o espaçamento interno nos links */
+        float: left; /* Alinha os links à esquerda */
+    }
+
+    nav #menu_pricipal {
+        float: right; /* Alinha o menu principal à direita */
+    }
+
+    nav #menu_principal li span {
+        font-family: Montserrat, sans-serif; /* Aplica a fonte Montserrat */
+        font-size: 11px; /* Define o tamanho da fonte */
+        color: rgb(134, 134, 134); /* Define a cor do texto */
+        margin-top: 60px; /* Adiciona um espaçamento superior */
+        margin-right: 3px; /* Adiciona um espaçamento à direita */
+        float: left; /* Alinha o span à esquerda */
+    }
+
+    #menu_principal li a {
+        color: white; /* Define a cor do texto dos links como branco */
+        font-size: 14px; /* Define o tamanho da fonte dos links */
+        text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+        text-decoration: none; /* Remove a linha de sublinhado */
+        transition: 1s; /* Define uma transição suave de 1 segundo */
+    }
+
+    #menu_principal li a:hover {
+        color: #e7a920; /* Altera a cor do texto para dourado ao passar o mouse */
+        transition: 1s; /* Define a transição suave de 1 segundo */
+        text-decoration: line-through; /* Aplica um risco ao texto ao passar o mouse */
+    }
+
+    .regua{
+        background-image: url(../IMG/divider-dark.png); /* Define uma imagem de fundo para a seção */
+        background-repeat: repeat-x; /* Faz a imagem de fundo repetir horizontalmente */
+        padding-top: 100px; /* Adiciona espaçamento no topo da seção */
+    }
+
+    .icons {
+        height: 130px; /* Define a altura do contêiner de ícones */
+        width: 345px; /* Define a largura do contêiner de ícones */
+        margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+        display: flex; /* Define o layout flexível para os ícones */
+        flex-direction: row; /* Coloca os ícones em linha (horizontalmente) */
+    }
+
+    .icons .icon img {
+        width: 115px; /* Define a largura das imagens de ícones */
+    }
+
+    .text {
+        height: 200px; /* Define a altura da div de texto */
+        width: 100%; /* Define que o texto ocupe 100% da largura disponível */
+    }
+
+    .text {
+        width: 850px; /* Define a largura do texto */
+        margin: 0 auto; /* Centraliza o texto horizontalmente */
+    }
+
+    .text h6 {
+        font-size: 28px; /* Define o tamanho da fonte */
+        font-weight: 300; /* Define a espessura da fonte (mais leve) */
+        width: 80%; /* Define a largura do texto em 80% da div pai */
+        display: inline-block; /* Exibe o texto como bloco em linha */
+        line-height: 40px; /* Define o espaçamento entre linhas */
+        font-family: 'Roboto slab', serif; /* Define a fonte do Google Fontes */
+        margin-left: 130px; /* Adiciona um espaçamento à esquerda */
+        text-align: center; /* Centraliza o texto dentro do elemento */
+        margin: 0; /* Remove as margens */
+        margin-left: 95px; /* Define uma margem à esquerda de 95px */
+        margin-top: 40px; /* Define uma margem no topo de 40px */
+        }
+        
+        .trabalhos {
+            height: 200px; /* Define a altura da seção "trabalhos" */
+            width: 100%; /* Faz a seção "trabalhos" ocupar 100% da largura da tela */
+        }
+        
+        .cabeçalho {
+            min-width: 1200px; /* Define uma largura mínima para o cabeçalho */
+            max-width: 1400px; /* Define uma largura máxima para o cabeçalho */
+            margin: 0 auto; /* Centraliza o cabeçalho horizontalmente */
+            text-align: center; /* Centraliza o texto no cabeçalho */
+        }
+        
+        .trabalhos .cabeçalho h4 span {
+            color: #e7a920; /* Define a cor dourada para o texto dentro do span */
+            text-transform: uppercase; /* Converte o texto para letras maiúsculas */
+            letter-spacing: 11px; /* Define o espaçamento entre as letras */
+            font-weight: 300; /* Define a espessura leve para o texto */
+            font-size: 24px; /* Define o tamanho da fonte */
+            font-family: 'Montserrat', sans-serif; /* Aplica a fonte Montserrat */
+            font-style: italic; /* Aplica o estilo itálico ao texto */
+        }
+        
+        .trabalhos .cabeçalho h4 b {
+            color: black; /* Define a cor preta para o texto em negrito */
+            text-transform: uppercase; /* Converte o texto para letras maiúsculas */
+            font-weight: 700; /* Define uma espessura forte (negrito) para o texto */
+            font-size: 85px; /* Define o tamanho da fonte */
+            font-family: 'Montserrat', sans-serif; /* Aplica a fonte Montserrat */
+            font-style: italic; /* Aplica o estilo itálico ao texto */
+        }
+        
+        .trabalhos .cabeçalho p {
+            color: black; /* Define a cor preta para o parágrafo */
+            font-size: 20px; /* Define o tamanho da fonte do parágrafo */
+            font-family: 'Montserrat', sans-serif; /* Aplica a fonte Montserrat */
+        }
+        .trabalhos .mosaico {
+            min-width: 1200px;
+            max-width: 1400px;
+        margin:0 auto;
+            
+        }
+        .trabalhos .mosaico .item{
+            height: 470px;
+            width: 570px;
+            background-image: url(../IMG/project-1.jpg);
+            background-size: contain;
+            background-position: center;
+            
+        }
+        .trabalhos .mosaico .item.item:hover{
+            background-size: 110%;
+            background-position: center;
+            transition: transform 0.5s ease-in-out; /* Suaviza a transição */
+            
+            transform: scale(1.1); /* Aplica o zoom */
+           
+        }
+
+    /* --------------------------------------- TRABALHOS ---------------------------- */
+    #trabalhos {
+        background-color: blue; /* Define um fundo azul para a seção "trabalhos" */
+    }
