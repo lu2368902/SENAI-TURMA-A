@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Define o tipo de documento como HTML5 e o idioma da página como inglês -->
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres usado na página, aqui está usando UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a página para ser responsiva, ajustando-se para diferentes dispositivos -->
+    <title>Formulário GET</title> <!-- Título da página exibido na aba do navegador -->
+</head>
+<body>
+    <h2>formulário de exemplo</h2> <!-- Título secundário do formulário -->
+
+    <!-- Início do formulário -->
+    <!-- Atributo "action" define o arquivo PHP que receberá os dados do formulário, e "method" indica o envio via GET -->
+    <form action="php/grava_contato.php" method="GET">
+        
+        <!-- Campo de entrada para o nome, obrigatoriamente preenchido devido ao atributo "required" -->
+        <label for="nome">Nome:</label><br> <!-- Rótulo para o campo de texto do nome -->
+        <input type="text" id="nome" name="nome" required><br><br> <!-- Campo de texto para o nome, sem o atributo "name" (necessário para o envio do dado) -->
+
+        <!-- Campo de entrada para o e-mail, também obrigatório -->
+        <label for="email">E-mail:</label><br> <!-- Rótulo para o campo de e-mail -->
+        <input type="email" id="email" name="email" required><br><br> <!-- Campo de texto para o e-mail com validação de e-mail -->
+
+        <!-- Campo de texto para a mensagem -->
+        <label for="mensagem">Mensagem:</label><br> <!-- Rótulo para o campo de mensagem -->
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br> <!-- Área de texto para a mensagem com várias linhas e colunas, obrigatória -->
+
+        <!-- Botão de envio do formulário -->
+        <input type="submit" value="Enviar"> <!-- Botão para enviar os dados do formulário -->
+        
+    </form> <!-- Fim do formulário -->
+
+</body>
+</html>
